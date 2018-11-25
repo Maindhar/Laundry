@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="LAUNDRY"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_id"
+        android:layout_below="@+id/title"
+        android:hint="USER ID"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_password"
+        android:layout_below="@+id/login_id"
+        android:hint="PASSWORD"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_btn"
+        android:text="Login"
+        android:layout_below="@+id/login_password"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/login_btn"
+        android:layout_centerInParent="true"
+        android:id="@+id/txt_dont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"/>
+    <TextView
+        android:layout_below="@+id/txt_dont"
+        android:id="@+id/login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Register Here"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+</RelativeLayout>

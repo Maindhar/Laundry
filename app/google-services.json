@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "335159713228",
+    "firebase_url": "https://laundry-2fd1a.firebaseio.com",
+    "project_id": "laundry-2fd1a",
+    "storage_bucket": "laundry-2fd1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335159713228:android:a1c6755a2264af7c",
+        "android_client_info": {
+          "package_name": "com.example.manidharkodurupaka.laundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335159713228-hc1o2tqfqrg9c2id279dmdt5nc85472m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manidharkodurupaka.laundry",
+            "certificate_hash": "71361c27c4626b51d3dd095f34e0def8cbd503c5"
+          }
+        },
+        {
+          "client_id": "335159713228-kkp6ln6kcips3vlqh7tq2ispt99sflfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtPUpJVZlEy2iWHeHSyQBiAVVJTXJyDjo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335159713228-kkp6ln6kcips3vlqh7tq2ispt99sflfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <include android:id="@+id/register_app_bar"
+        layout="@layout/app_bar_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_marginTop="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_fn"
+                android:hint="FIRST NAME"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="text"/>
+            <EditText
+                android:layout_below="@+id/register_fn"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_id"
+                android:hint="BENNETT ID"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="text"/>
+            <EditText
+                android:textAllCaps="true"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_en"
+                android:layout_below="@+id/register_id"
+                android:hint="ENROLLMENT NUMBER"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="text"/>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_rn"
+                android:layout_below="@+id/register_en"
+                android:hint="ROOM NUMBER"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="text"/>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_mn"
+                android:layout_below="@+id/register_rn"
+                android:hint="MOBILE NUMBER"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="number"/>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_pass"
+                android:layout_below="@+id/register_mn"
+                android:hint="PASSWORD"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="textPassword"/>
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_btn"
+                android:text="Register"
+                android:layout_below="@+id/register_pass"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemsActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/items_tv"
+            android:layout_alignParentLeft="true"
+            android:text="Total:-"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/items_tv"
+            android:id="@+id/items_total"
+            android:text="0"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="4dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:text="Done"
+            android:id="@+id/items_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/items_recyclerview"/>
+
+</RelativeLayout>

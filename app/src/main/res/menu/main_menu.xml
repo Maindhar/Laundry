@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/Search_main"
+        app:showAsAction="always"
+        android:title="Search"
+        android:icon="@drawable/ic_search_black_24dp"/>
+    <item android:id="@+id/Status_main"
+        app:showAsAction="always"
+        android:title="Status"
+        android:icon="@drawable/ic_lock_open_black_24dp"/>
+    <item android:id="@+id/Settings__main"
+        android:title="Profile"/>
+    <item android:id="@+id/Logout_main"
+        android:title="Logout"/>
+</menu>
